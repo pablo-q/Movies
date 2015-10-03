@@ -1,0 +1,39 @@
+
+.peliFrame{	
+	border: 1px solid black;	
+	width: 30%;
+	margin: 5px 5px;
+}
+
+img, div.thevideo, iframe {
+    max-width: 100%;
+    max-height: 143px;
+}
+
+div#videoFrame{
+	border-bottom: 1px solid black;
+}
+
+.leftColumn, .rightColumn{
+	padding: 0px;
+	font-size: 11px;
+}
+
+.leftElement{
+	padding-left: 5px;
+	padding-right: 0px;
+	margin-bottom: 5px;
+}
+
+.leftElement > label{
+	margin-bottom: 0px;
+}
+
+.rightElement{
+	padding-right: 0px;
+}
+
+.deleteLink{
+	color: red;
+	padding-left: 5px;
+}
